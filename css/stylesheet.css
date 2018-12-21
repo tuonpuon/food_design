@@ -1,0 +1,27 @@
+.start-text {
+    background-color: #fff;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.slider .center {
+    height: 40vh;
+}
+
+.ticket div{
+    height: 45vh;
+}
+
+.ticket div img{
+    width: 100%;
+}
+
+.ticket:nth-child(odd) div {
+    background-color: green;
+}
+
+.ticket:nth-child(even) div {
+    background-color: blue;
+}
