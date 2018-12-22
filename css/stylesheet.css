@@ -14,14 +14,29 @@
     height: 45vh;
 }
 
-.ticket div img{
-    width: 100%;
+.ticket div .figure img{
+    min-height: 35vh;
+    max-height: 35vh;
+    max-width: 90%;
+    min-width: 90%;
 }
 
-.ticket:nth-child(odd) div {
+.figure {
+    display: block !important;
+}
+.card-item {
+    color: #212529;
+}
+.card-item:hover {
+   color: #212529;
+   text-decoration: none;
+   
+}
+
+/* .ticket:nth-child(odd) div {
     background-color: green;
 }
 
 .ticket:nth-child(even) div {
     background-color: blue;
-}
+} */
