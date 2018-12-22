@@ -24,6 +24,14 @@
 .figure {
     display: block !important;
 }
+.card-item {
+    color: #212529;
+}
+.card-item:hover {
+   color: #212529;
+   text-decoration: none;
+   
+}
 
 /* .ticket:nth-child(odd) div {
     background-color: green;
