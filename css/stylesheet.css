@@ -7,16 +7,16 @@
 }
 
 .slider .center {
-    height: 40vh;
+    height: 60vh;
 }
 
 .ticket div{
-    height: 45vh;
+    height: 65vh;
 }
 
 .ticket div .figure img{
-    min-height: 35vh;
-    max-height: 35vh;
+    min-height: 55vh;
+    max-height: 55vh;
     max-width: 90%;
     min-width: 90%;
 }
@@ -31,6 +31,11 @@
    color: #212529;
    text-decoration: none;
    
+}
+
+.item-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 /* .ticket:nth-child(odd) div {
