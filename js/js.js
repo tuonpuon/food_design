@@ -23,7 +23,10 @@ $(document).ready(function(){
         }
       }
     ]
-  });
+  }).done(
+    $('.spinner').remove(),
+    $('.center').toggleClass('invisible')
+  );
     // var slider = tns({
     //   container: '.my-slider',
     //   mouseDrag: true,
