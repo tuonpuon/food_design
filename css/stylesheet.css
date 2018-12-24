@@ -10,11 +10,11 @@
     height: 60vh;
 }
 
-.ticket div{
+.slick-slide a{
     height: 65vh;
 }
 
-.ticket div .figure img{
+.slick-slide a .figure img{
     min-height: 55vh;
     max-height: 55vh;
     max-width: 90%;
